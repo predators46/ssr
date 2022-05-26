@@ -28,7 +28,8 @@
  *
  */
 
-#include <sys/cdefs.h>
+#include <sys/types.h>
+#define	__P(protos) protos /* full-blown ANSI C */
 #define P __P
 
 /*
