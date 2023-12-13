@@ -341,8 +341,6 @@ sub find_openssl_prefix {
 	'/usr/local/opt/openssl/bin/openssl' => '/usr/local/opt/openssl', # OSX homebrew openssl
 	'/usr/local/bin/openssl'         => '/usr/local', # OSX homebrew openssl
 	'/opt/local/bin/openssl'         => '/opt/local', # Macports openssl
-	'/usr/bin/openssl'               => '/usr',
-	'/usr/sbin/openssl'              => '/usr',
 	'/opt/ssl/bin/openssl'           => '/opt/ssl',
 	'/opt/ssl/sbin/openssl'          => '/opt/ssl',
 	'/usr/local/ssl/bin/openssl'     => '/usr/local/ssl',
